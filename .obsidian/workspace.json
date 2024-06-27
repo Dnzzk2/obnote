@@ -154,8 +154,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7d61a6326fbb8887",
+  "active": "0dd6b784c268c4e5",
   "lastOpenFiles": [
     "构建工具",
     "任务列表.md",
