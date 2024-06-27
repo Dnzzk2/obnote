@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
-                "mode": "source",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +156,9 @@
   },
   "active": "6a701ba89f873d12",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
-    "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "conflict-files-obsidian-git.md",
     "构建工具/Webpack.md",
     "前端工程化/构建工具/Webpack",
