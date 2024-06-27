@@ -1,6 +1,8 @@
 {
-  "accentColor": "",
-  "cssTheme": "Minimal",
+  "cssTheme": "Border",
+  "theme": "moonstone",
+  "textFontFamily": "阿里妈妈东方大楷,Sarasa Term SC,Fira Code Retina",
   "monospaceFontFamily": "Fira Code Retina",
-  "baseFontSize": 20
+  "interfaceFontFamily": "阿里妈妈东方大楷",
+  "accentColor": ""
 }

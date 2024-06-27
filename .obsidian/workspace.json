@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "e03fbce48230825d",
+    "id": "928511cfcea643a6",
     "type": "split",
     "children": [
       {
-        "id": "a1889d12c2bb6bbf",
+        "id": "cc8af95810c0d47b",
         "type": "tabs",
         "children": [
           {
-            "id": "cbe68aefdcf01911",
+            "id": "137a9dc580b39ca5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Webpack/Webpack笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "03e94cf05e1fb44e",
+    "id": "fbcffb8f5c2c2917",
     "type": "split",
     "children": [
       {
-        "id": "a2732bfd6db67403",
+        "id": "c01ae00e535017a0",
         "type": "tabs",
         "children": [
           {
-            "id": "37f3b3e3c9bed5e1",
+            "id": "7d61a6326fbb8887",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "7e6a4b884a0f8b75",
+            "id": "3b6c3d46cab690a8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "5c9781ade3ae8663",
+            "id": "a96cdee6aa6426b5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +69,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "efa306142e76255d",
+    "id": "b66a83f995a7ad2b",
     "type": "split",
     "children": [
       {
-        "id": "434241cf1262a76d",
+        "id": "cfe79c706894ef34",
         "type": "tabs",
+        "dimension": 58.88888888888889,
         "children": [
           {
-            "id": "f10437e3e02be187",
+            "id": "1ed801ccd82c3203",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Webpack/Webpack笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +98,53 @@
             }
           },
           {
-            "id": "c4dba2b1b07e00ae",
+            "id": "993345a756c4e76c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Webpack/Webpack笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "150cdaa83d722c12",
+            "id": "3f78b6b56f20f710",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Webpack/Webpack笔记.md"
+              }
+            }
+          },
+          {
+            "id": "63710b067b8b546d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "3595a202d61e1a1d",
+        "type": "tabs",
+        "dimension": 41.11111111111111,
+        "children": [
+          {
+            "id": "0dd6b784c268c4e5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f1e5f3ffb5065fb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,21 +153,12 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "1805bba1c8a968bc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -135,14 +167,24 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-kanban:创建新看板": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "cbe68aefdcf01911",
+  "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
-    "未命名.md",
+    "任务列表.md",
+    "Webpack/Webpack笔记.md",
+    "2024-06-28.md",
+    "Webpack/未命名.canvas",
+    "Webpack",
+    "README.md",
+    "obnote",
+    "2024-06-21.md",
+    "JavaScript Promise迷你书（中文版）.pdf",
+    "123.md",
     "未命名.canvas",
-    "Coding Setting.md",
-    "Welcome.md"
+    "未命名 1.canvas"
   ]
 }
