@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
-                "mode": "preview",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md"
+                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md"
               }
             }
           },
@@ -174,13 +174,13 @@
   },
   "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
-    "前端工程化/构建工具/Vite/深入浅出Vite.md",
+    "任务列表.md",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
+    "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "前端工程化/构建工具/Vite",
     "前端工程化",
     "Pasted image 20240627135852.png",
     "前端工程化/构建工具",
-    "任务列表.md",
     "README.md",
     "学习Webpack.md",
     "2024-06-28.md",
