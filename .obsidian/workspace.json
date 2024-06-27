@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,8 +164,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6a701ba89f873d12",
+  "active": "37f3b3e3c9bed5e1",
   "lastOpenFiles": [
+    "前端框架/Vue3",
+    "前端框架/React",
+    "前端框架",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "技巧合集/Antd技巧/Antd.md",
     "技巧合集/Antd技巧",
@@ -182,8 +184,6 @@
     "前端工程化",
     "README.md",
     "构建工具",
-    "新建 文本文档.txt",
-    "书籍/前端书籍",
     "未命名 1.md",
     "未命名 2.md",
     "未命名 3.md",
