@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "file": "技巧合集/Antd技巧/Antd.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 323.5
   },
   "right": {
     "id": "efa306142e76255d",
@@ -86,8 +86,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
-                "collapseAll": false,
+                "file": "技巧合集/Antd技巧/Antd.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,9 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "file": "技巧合集/Antd技巧/Antd.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -119,9 +119,19 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "20cc5e9f2fe5950f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "技巧合集/Antd技巧/Antd.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "79631c4fa252bbff",
@@ -140,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,11 +164,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37f3b3e3c9bed5e1",
+  "active": "20cc5e9f2fe5950f",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+    "技巧合集/Antd技巧/Antd.md",
+    "技巧合集/Antd技巧",
     "技巧合集",
     "任务列表.md",
-    "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
     "conflict-files-obsidian-git.md",
@@ -171,7 +183,6 @@
     "构建工具",
     "新建 文本文档.txt",
     "书籍/前端书籍",
-    "书籍",
     "未命名 1.md",
     "未命名 2.md",
     "未命名 3.md",
