@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "前端工程化/打包工具/Webpack/Webpack笔记.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -172,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0dd6b784c268c4e5",
+  "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
     "前端工程化",
     "Pasted image 20240627135852.png",
