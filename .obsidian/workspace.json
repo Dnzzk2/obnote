@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "构建工具/Webpack.md",
+                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -78,6 +78,7 @@
       {
         "id": "434241cf1262a76d",
         "type": "tabs",
+        "dimension": 65.47619047619048,
         "children": [
           {
             "id": "f10437e3e02be187",
@@ -85,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "构建工具/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "构建工具/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,16 +117,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "c9b377d850439875",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "构建工具/Webpack.md"
-              }
-            }
           }
         ],
         "currentTab": 2
@@ -135,15 +124,14 @@
       {
         "id": "79631c4fa252bbff",
         "type": "tabs",
+        "dimension": 34.523809523809526,
         "children": [
           {
-            "id": "09cfa1e5bb1a954a",
+            "id": "04efd98a341e96d6",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "构建工具/Webpack.md"
-              }
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -154,6 +142,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:创建新看板": false,
+      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -162,10 +152,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7b5c1aec7a2d20b1",
+  "active": "37f3b3e3c9bed5e1",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Webpack/Webpack笔记.md",
+    "conflict-files-obsidian-git.md",
+    "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
     "构建工具/Webpack.md",
+    "前端工程化/构建工具/Webpack",
+    "前端工程化/构建工具/Vite",
+    "前端工程化/构建工具",
+    "前端工程化",
+    "任务列表.md",
+    "README.md",
     "构建工具",
     "新建 文本文档.txt",
     "书籍/前端书籍",
