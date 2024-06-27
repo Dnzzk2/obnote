@@ -87,12 +87,12 @@
               "type": "backlink",
               "state": {
                 "file": "前端工程化/打包工具/Webpack/Webpack笔记.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -172,7 +172,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7d61a6326fbb8887",
+  "active": "0dd6b784c268c4e5",
   "lastOpenFiles": [
     "前端工程化",
     "Pasted image 20240627135852.png",
