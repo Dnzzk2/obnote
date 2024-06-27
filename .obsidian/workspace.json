@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a1889d12c2bb6bbf",
+        "id": "e7fe7c0d30068a2a",
         "type": "tabs",
         "children": [
           {
-            "id": "cbe68aefdcf01911",
+            "id": "7b5c1aec7a2d20b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "构建工具/Webpack.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "构建工具/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "构建工具/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,15 +120,33 @@
             }
           },
           {
-            "id": "1805bba1c8a968bc",
+            "id": "c9b377d850439875",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "构建工具/Webpack.md"
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "79631c4fa252bbff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09cfa1e5bb1a954a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "构建工具/Webpack.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,9 +162,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cbe68aefdcf01911",
+  "active": "7b5c1aec7a2d20b1",
   "lastOpenFiles": [
-    "未命名.md",
+    "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
+    "构建工具/Webpack.md",
+    "构建工具",
+    "新建 文本文档.txt",
+    "书籍/前端书籍",
+    "书籍",
+    "未命名 1.md",
+    "未命名 2.md",
+    "未命名 3.md",
+    "未命名 4.md",
     "未命名.canvas",
     "Coding Setting.md",
     "Welcome.md"

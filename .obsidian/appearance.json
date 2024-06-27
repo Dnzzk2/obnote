@@ -1,6 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Minimal",
-  "monospaceFontFamily": "Fira Code Retina",
-  "baseFontSize": 20
+  "cssTheme": "Border",
+  "monospaceFontFamily": "Fira Code Retina,Sarasa Term SC",
+  "baseFontSize": 20,
+  "textFontFamily": "Sarasa Term SC,Fira Code Retina",
+  "interfaceFontFamily": "Sarasa Term SC"
 }
