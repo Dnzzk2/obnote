@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webpack/Webpack笔记.md",
+                "file": "构建工具/Webpack/Webpack笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Webpack/Webpack笔记.md",
+                "file": "构建工具/Webpack/Webpack笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Webpack/Webpack笔记.md",
+                "file": "构建工具/Webpack/Webpack笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Webpack/Webpack笔记.md"
+                "file": "构建工具/Webpack/Webpack笔记.md"
               }
             }
           },
@@ -154,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,14 +173,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "137a9dc580b39ca5",
+  "active": "7d61a6326fbb8887",
   "lastOpenFiles": [
+    "构建工具",
     "任务列表.md",
-    "Webpack/Webpack笔记.md",
+    "构建工具/Webpack/Webpack笔记.md",
+    "README.md",
+    "学习Webpack.md",
     "2024-06-28.md",
     "Webpack/未命名.canvas",
-    "Webpack",
-    "README.md",
+    "构建工具/Webpack",
     "obnote",
     "2024-06-21.md",
     "JavaScript Promise迷你书（中文版）.pdf",
