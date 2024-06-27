@@ -11,11 +11,9 @@
             "id": "6a701ba89f873d12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "技巧合集/Antd技巧/Antd.md",
-                "mode": "source",
-                "source": false
+                "file": "书籍/前端书籍/JavaScript设计模式与开发实践.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技巧合集/Antd技巧/Antd.md",
+                "file": "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "技巧合集/Antd技巧/Antd.md",
+                "file": "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技巧合集/Antd技巧/Antd.md"
+                "file": "书籍/前端书籍/JavaScript设计模式与开发实践.pdf"
               }
             }
           }
@@ -166,16 +164,16 @@
   },
   "active": "37f3b3e3c9bed5e1",
   "lastOpenFiles": [
+    "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
+    "技巧合集/Antd技巧/Antd.md",
     "前端框架/Vue3",
     "前端框架/React",
     "前端框架",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
-    "技巧合集/Antd技巧/Antd.md",
     "技巧合集/Antd技巧",
     "技巧合集",
     "任务列表.md",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
-    "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
     "conflict-files-obsidian-git.md",
     "构建工具/Webpack.md",
     "前端工程化/构建工具/Webpack",
@@ -183,7 +181,6 @@
     "前端工程化/构建工具",
     "前端工程化",
     "README.md",
-    "构建工具",
     "未命名 1.md",
     "未命名 2.md",
     "未命名 3.md",
