@@ -1,8 +1,3 @@
----
-tags:
-  - 前端工程化
-  - webpack
----
 
 # 什么是webpack?
 本质上，**webpack** 是一个用于现代 JavaScript 应用程序的 _静态模块打包工具_。当 webpack 处理应用程序时，它会在内部从一个或多个入口点构建一个 [依赖图(dependency graph)](https://www.webpackjs.com/concepts/dependency-graph/)，然后将你项目中所需的每一个模块组合成一个或多个 _bundles_，它们均为静态资源，用于展示你的内容。
@@ -102,8 +97,8 @@ module.exports = {
   },
 };
 ```
-## 常见场景
-### 分离应用程序和第三方库的入口
+### 常见场景
+#### 分离应用程序和第三方库的入口
 **webpack.config.js**
 
 ```javascript
@@ -134,7 +129,7 @@ module.exports = {
   },
 };
 ```
-### 多页面应用程序
+#### 多页面应用程序
 ```javascript
 module.exports = {
   entry: {
@@ -159,5 +154,6 @@ module.exports = {
   },
 };
 ```
+
 ## loader
 webpack 只能理解 JavaScript 和 JSON 文件，这是 webpack 开箱可用的自带能力。**loader** 让 webpack 能够去处理其他类型的文件，并将它们转换为有效 [模块](https://www.webpackjs.com/concepts/modules)，以供应用程序使用，以及被添加到依赖图中。

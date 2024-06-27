@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/打包工具/Webpack/Webpack笔记.md",
-                "mode": "source",
+                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/打包工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/打包工具/Webpack/Webpack笔记.md",
+                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/打包工具/Webpack/Webpack笔记.md"
+                "file": "前端工程化/构建工具/Webpack/Webpack笔记.md"
               }
             }
           },
@@ -174,16 +174,18 @@
   },
   "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Vite/深入浅出Vite.md",
+    "前端工程化/构建工具/Webpack/Webpack笔记.md",
+    "前端工程化/构建工具/Vite",
     "前端工程化",
     "Pasted image 20240627135852.png",
-    "前端工程化/打包工具/Webpack/Webpack笔记.md",
-    "前端工程化/打包工具",
+    "前端工程化/构建工具",
     "任务列表.md",
     "README.md",
     "学习Webpack.md",
     "2024-06-28.md",
     "Webpack/未命名.canvas",
-    "前端工程化/打包工具/Webpack",
+    "前端工程化/构建工具/Webpack",
     "obnote",
     "2024-06-21.md",
     "JavaScript Promise迷你书（中文版）.pdf",
