@@ -11,6 +11,23 @@ module.exports = {
   entry: './path/to/my/entry/file.js',
 };
 ```
+### 单个入口语法
+用法：`entry: string | [string]`
+```javascript
+module.exports = {
+  entry: './path/to/my/entry/file.js',
+};
+```
+`entry` 属性的单个入口语法，是以下形式的简写：
+```javascript
+module.exports = {
+  entry: {
+    main: './path/to/my/entry/file.js',
+  },
+};
+```
+
+
 ## 输出(output)
 output指定 **webpack** 输出的 _bundles_ 的输出地址，以及如何命名这些文件
 主要输出文件的默认值：`./dist/main.js `  ，其他生成文件默认放置在 `./dist` 文件夹中。
