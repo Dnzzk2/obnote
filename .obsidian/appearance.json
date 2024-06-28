@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Border",
-  "theme": "obsidian",
-  "textFontFamily": "阿里妈妈刀隶体,阿里妈妈东方大楷",
-  "monospaceFontFamily": "Fira Code Retina",
-  "interfaceFontFamily": "阿里妈妈东方大楷"
+  "theme": "moonstone",
+  "monospaceFontFamily": "Fira Code Retina,阿里妈妈刀隶体",
+  "textFontFamily": "阿里妈妈刀隶体",
+  "interfaceFontFamily": "阿里妈妈东方大楷",
+  "cssTheme": "Border"
 }
