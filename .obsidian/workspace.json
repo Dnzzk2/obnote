@@ -11,11 +11,15 @@
             "id": "137a9dc580b39ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
-                "mode": "source",
-                "source": false
+                "file": "任务列表.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    null
+                  ]
+                }
               }
             }
           }
@@ -86,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "file": "任务列表.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+                "file": "任务列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出 Vite.md"
+                "file": "任务列表.md"
               }
             }
           },
@@ -174,8 +178,9 @@
   },
   "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
-    "技巧合集/Antd技巧/Antd.md",
+    "README.md",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
+    "技巧合集/Antd技巧/Antd.md",
     "技巧合集/Antd技巧",
     "技巧合集",
     "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
@@ -187,7 +192,6 @@
     "前端工程化",
     "Pasted image 20240627135852.png",
     "前端工程化/构建工具",
-    "README.md",
     "学习Webpack.md",
     "2024-06-28.md",
     "Webpack/未命名.canvas",
