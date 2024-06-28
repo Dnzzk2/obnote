@@ -58,4 +58,93 @@ console.log(getData());
 总之，CommonJS 是一个不太适合在浏览器中运行的模块规范。因此，业界也设计出了全新的规范来作为浏览器端的模块标准，最知名的要数 `AMD` 了。
 
 ## AMD规范
-`AMD`全称为`Asynchronous Module Definition`
+`AMD`全称为`Asynchronous Module Definition`，即异步模块定义规范。模块根据这个规范，在浏览器环境中会被异步加载，而不会像 CommonJS 规范进行同步加载，也就不会产生同步请求导致的浏览器解析过程阻塞的问题了。我们先来看看这个模块规范是如何来使用的:
+```js
+// main.js
+define(["./print"], function (printModule) {
+  printModule.print("main");
+});
+
+// print.js
+define(function () {
+  return {
+    print: function (msg) {
+      console.log("print " + msg);
+    },
+  };
+});
+
+```
+
+在 AMD 规范当中，我们可以通过 define 去定义或加载一个模块，比如上面的 `main` 模块和`print`模块，如果模块需要导出一些成员需要通过在定义模块的函数中 return 出去(参考 `print` 模块)，如果当前模块依赖了一些其它的模块则可以通过 define 的第一个参数来声明依赖(参考`main`模块)，这样模块的代码执行之前浏览器会先**加载依赖模块**。
+
+当然，你也可以使用 require 关键字来加载一个模块，如:
+```js
+// module-a.js
+require(["./print.js"], function (printModule) {
+  printModule.print("module-a");
+});
+
+```
+不过 require 与 define 的区别在于前者只能加载模块，而`不能定义一个模块`。
+## ES6 Module
+`ES6 Module` 也被称作 `ES Module`(或 `ESM`)， 是由 ECMAScript 官方提出的模块化规范，作为一个官方提出的规范，`ES Module` 已经得到了现代浏览器的内置支持。在现代浏览器中，如果在 HTML 中加入含有`type="module"`属性的 script 标签，那么浏览器会按照 ES Module 规范来进行依赖加载和模块解析，这也是 Vite 在开发阶段实现 no-bundle 的原因，由于模块加载的任务交给了浏览器，即使不打包也可以顺利运行模块代码。
+
+下面是一个使用 ES Module 的简单例子:
+```js
+// main.js
+import { methodA } from "./module-a.js";
+methodA();
+
+//module-a.js
+const methodA = () => {
+  console.log("a");
+};
+
+export { methodA };
+
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
+```
+如果在 Node.js 环境中，你可以在`package.json`中声明`type: "module"`
+```json
+// package.json
+{
+  "type": "module"
+}
+
+```
+然后 Node.js 便会默认以 ES Module 规范去解析模块:
+```js
+node main.js // 打印 a
+```
+顺便说一句，在 Node.js 中，即使是在 CommonJS 模块里面，也可以通过 `import` 方法顺利加载 ES 模块，如下所示:
+```ts
+async function func() {
+  // 加载一个 ES 模块
+  // 文件名后缀需要是 mjs
+  const { a } = await import("./module-a.mjs");
+  console.log(a);
+}
+
+func();
+
+module.exports = {
+  func,
+};
+
+```
