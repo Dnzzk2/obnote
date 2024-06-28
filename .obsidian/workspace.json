@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/深入浅出 Vite.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/深入浅出 Vite.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/深入浅出 Vite.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/深入浅出 Vite.md"
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md"
               }
             }
           },
@@ -174,8 +174,9 @@
   },
   "active": "137a9dc580b39ca5",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
+    "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
-    "前端工程化/构建工具/Vite/深入浅出Vite/深入浅出 Vite.md",
     "前端工程化/构建工具/Vite/深入浅出Vite",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "任务列表.md",
