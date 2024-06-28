@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
+                "file": "前端框架/React/ReactWTF阅读.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
+                "file": "前端框架/React/ReactWTF阅读.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
+                "file": "前端框架/React/ReactWTF阅读.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md"
+                "file": "前端框架/React/ReactWTF阅读.md"
               }
             }
           }
@@ -164,11 +164,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37f3b3e3c9bed5e1",
+  "active": "6a701ba89f873d12",
   "lastOpenFiles": [
+    "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
+    "前端框架/React/ReactWTF阅读.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
-    "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "任务列表.md",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
