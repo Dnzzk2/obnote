@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "前端框架/React/ReactWTF阅读.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -155,26 +155,26 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:创建新看板": false,
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "6a701ba89f873d12",
   "lastOpenFiles": [
-    "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
-    "前端框架/React/ReactWTF阅读.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
-    "前端工程化/构建工具/Webpack/Webpack笔记.md",
+    "前端框架/React/ReactWTF阅读.md",
+    "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
     "任务列表.md",
+    "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
+    "前端工程化/构建工具/Webpack/Webpack笔记.md",
     "前端工程化/构建工具/Vite/深入浅出 Vite.md",
     "前端工程化/构建工具/Vite/深入浅出Vite",
-    "书籍/前端书籍/JavaScript设计模式与开发实践.pdf",
     "技巧合集/Antd技巧/Antd.md",
     "前端框架/Vue3",
     "前端框架/React",
