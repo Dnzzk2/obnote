@@ -15,3 +15,47 @@
     
 - 开发效率方面，构建工具本身通过各种方式来进行性能优化，包括`使用原生语言 Go/Rust`、`no-bundle`等等思路，提高项目的启动性能和热更新的速度。
 
+# 模块标准
+## CommonJS 规范
+CommonJS 是业界最早正式提出的 JavaScript 模块规范，主要用于服务端，随着 Node.js 越来越普及，这个规范也被业界广泛应用。对于模块规范而言，一般会包含 2 方面内容:
+
+- 统一的模块化代码规范
+    
+- 实现自动加载模块的加载器(也称`loader`)
+    
+
+对于 CommonJS 模块规范本身，相信有 Node.js 使用经验的同学都不陌生了，为了方便你理解，我举一个使用 CommonJS 的简单例子:
+```ts
+// module-a.js
+var data = "hello world";
+function getData() {
+  return data;
+}
+module.exports = {
+  getData,
+};
+
+// index.js
+const { getData } = require("./module-a.js");
+console.log(getData());
+
+```
+
+代码中使用 `require` 来导入一个模块，用`module.exports`来导出一个模块。实际上 Node.js 内部会有相应的 loader 转译模块代码，最后模块代码会被处理成下面这样:
+```js
+(function (exports, require, module, __filename, __dirname) {
+  // 执行模块代码
+  // 返回 exports 对象
+});
+
+```
+
+对 CommonJS 而言，一方面它定义了一套完整的模块化代码规范，另一方面 Node.js 为之实现了自动加载模块的`loader`，看上去是一个很不错的模块规范，但也存在一些问题:
+
+1. 模块加载器由 Node.js 提供，依赖了 Node.js 本身的功能实现，比如文件系统，如果 CommonJS 模块直接放到浏览器中是无法执行的。当然, 业界也产生了 [browserify](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fbrowserify%2Fbrowserify "https://github.com/browserify/browserify") 这种打包工具来支持打包 CommonJS 模块，从而顺利在浏览器中执行，相当于社区实现了一个第三方的 loader。
+2. CommonJS 本身约定以同步的方式进行模块加载，这种加载机制放在服务端是没问题的，一来模块都在本地，不需要进行网络 IO，二来只有服务启动时才会加载模块，而服务通常启动后会一直运行，所以对服务的性能并没有太大的影响。但如果这种加载机制放到浏览器端，会带来明显的性能问题。它会产生大量同步的模块请求，浏览器要等待响应返回后才能继续解析模块。也就是说，**模块请求会造成浏览器 JS 解析过程的阻塞**，导致页面加载速度缓慢。
+
+总之，CommonJS 是一个不太适合在浏览器中运行的模块规范。因此，业界也设计出了全新的规范来作为浏览器端的模块标准，最知名的要数 `AMD` 了。
+
+## AMD规范
+`AMD`全称为`Asynchronous Module Definition`
