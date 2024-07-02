@@ -15,5 +15,5 @@ For Why Not For What
 
 HTML和JS的本质就是DOM，通过浏览器转成DOM树
 
-前端的本质：DOM（首屏） + 回调函数（操作DOM）
+仅限web-前端的本质：DOM（首屏） + 回调函数（操作DOM）
 边界：DOM
