@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
+                "file": "前端框架/React/ReactWTF阅读.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "208e99b9b716b2aa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-05 14.01.40.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
+                "file": "Excalidraw/Drawing 2024-07-05 14.01.40.excalidraw.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
+                "file": "Excalidraw/Drawing 2024-07-05 14.01.40.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md"
+                "file": "Excalidraw/Drawing 2024-07-05 14.01.40.excalidraw.md"
               }
             }
           },
@@ -169,21 +180,25 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-kanban:创建新看板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0dd6b784c268c4e5",
+  "active": "208e99b9b716b2aa",
   "lastOpenFiles": [
     "前端框架/React/ReactWTF阅读.md",
+    "Excalidraw/Drawing 2024-07-05 14.01.40.excalidraw.md",
+    "Excalidraw",
+    "前端框架/React/未命名.canvas",
+    "任务列表.md",
+    "README.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
+    "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
     "前端框架/React",
     "前端框架",
-    "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
     "前端工程化/构建工具/Vite/深入浅出Vite/1.前端工程化的痛点和解决方案.md",
     "前端工程化/构建工具/Vite/深入浅出Vite",
     "前端工程化/构建工具/Webpack/Webpack笔记.md",
-    "任务列表.md",
-    "README.md",
     "技巧合集/Antd技巧/Antd.md",
     "技巧合集/Antd技巧",
     "技巧合集",
@@ -191,14 +206,12 @@
     "书籍/前端书籍",
     "书籍",
     "前端工程化/构建工具/Vite",
-    "前端工程化",
     "Pasted image 20240627135852.png",
     "学习Webpack.md",
     "2024-06-28.md",
     "Webpack/未命名.canvas",
     "2024-06-21.md",
     "123.md",
-    "未命名.canvas",
     "未命名 1.canvas"
   ]
 }
