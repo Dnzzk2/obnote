@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端框架/React/ReactWTF阅读.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端框架/React/ReactWTF阅读.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端框架/React/ReactWTF阅读.md",
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端框架/React/ReactWTF阅读.md"
+                "file": "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md"
               }
             }
           },
@@ -174,8 +174,8 @@
   },
   "active": "0dd6b784c268c4e5",
   "lastOpenFiles": [
-    "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
     "前端框架/React/ReactWTF阅读.md",
+    "前端工程化/构建工具/Vite/深入浅出Vite/3.使用Vite从零开始搭建项目.md",
     "前端框架/React",
     "前端框架",
     "前端工程化/构建工具/Vite/深入浅出Vite/2.模块标准.md",
